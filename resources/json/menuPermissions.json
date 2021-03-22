@@ -1,0 +1,7 @@
+{
+	"permissions": {
+	    "Users & Roles": ["administrator:list", "role:list"],
+		  "Integration Settings": ["setting:integration:list"],
+      "Todo": ["task:list"]
+	}
+}

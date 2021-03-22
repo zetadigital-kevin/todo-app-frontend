@@ -1,0 +1,9 @@
+{
+	"permissions": {
+		"Users" : "administrator:list",
+		"Roles & Permissions" : "role:list",
+    "Todo List" : "task:list",
+    "Todo Trash" : "task:list",
+    "User Tasks" : "task:admin:list"
+	}
+}

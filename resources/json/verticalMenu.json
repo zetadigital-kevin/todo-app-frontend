@@ -1,0 +1,58 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-home"
+        },
+        {
+          "url": "",
+          "name": "Todo",
+          "icon": "feather icon-file-minus",
+          "submenu": [
+            {
+              "url": "tasks/list",
+              "name": "Todo List",
+              "i18n": "nav.tasks"
+            },
+            {
+              "url": "tasks/trash/list",
+              "name": "Todo Trash",
+              "i18n": "nav.trash.tasks"
+            },
+            {
+              "url": "users/tasks/list",
+              "name": "User Tasks",
+              "icon": "feather icon-file-minus"
+            }
+          ]
+        },
+        {
+          "url": "",
+          "name": "Users & Roles",
+          "icon": "feather icon-users",
+          "submenu": [
+            {
+              "url": "users",
+              "name": "Users",
+              "i18n": "nav.users"
+            },
+            {
+              "url": "roles",
+              "name": "Roles & Permissions",
+              "i18n": "nav.roles"
+            }
+          ]
+        },
+        {
+          "url": "",
+          "name": "Integration Settings",
+          "icon": "feather icon-codepen",
+          "submenu": [
+
+          ]
+        }
+    ]
+}
